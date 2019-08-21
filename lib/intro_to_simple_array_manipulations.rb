@@ -14,7 +14,7 @@ def using_shift(array)
   array.shift
 end
 def shift_with_args(array)
-  array.shift(0,1)
+  array.shift(0..1)
 end
 def using_contact(array1,array2)
   array1.concat(array2)
