@@ -17,7 +17,7 @@ def shift_with_args(array)
   array.shift(0,1)
 end
 def using_contact(array1,array2)
-  array1.contact(array2)
+  array2.contact(array1)
 end
 def using_insert(array, elem)
   array.insert(4,elem)
